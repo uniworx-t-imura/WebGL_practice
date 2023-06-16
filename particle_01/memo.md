@@ -36,3 +36,10 @@ https://www.webdesignleaves.com/pr/jquery/requestAnimationFrame.html
 基本的には、requestAnimationFrame() に指定するコールバック関数を定義して、そのコールバック関数の中で requestAnimationFrame() を使って自身を呼び出し、ブラウザの描画のタイミングに合わせてコールバック関数を繰り返し実行（ループ）させる。
 
 
+## 総括
+- 動かしたいもの、動きが明確に決まっていればかなり自由にアニメーション表現ができる。
+- 動かしたいものについては、二次元描画コンテキストつかって、図形、文字、画像、その他のオブジェクトを描画できる
+https://developer.mozilla.org/ja/docs/Web/API/CanvasRenderingContext2D
+
+# jikai
+他のアニメーションとの連携の動きで何かおもろい見た目のいけてるやつ
