@@ -23,6 +23,7 @@ class Particle {
     this.index = index;
   }
   render() {
+    //3種類の円デザイン
     if(this.index % 3 === 0) {
       ctx.fillStyle = "#fff";
       ctx.fill();
@@ -35,7 +36,7 @@ class Particle {
       ctx.fillStyle = "#0f0091";
       ctx.fill();
     }
-    // 円をかく
+    // 円をかく（デザインの反映）
     ctx.beginPath();
     ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2, true);
     

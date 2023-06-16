@@ -2,6 +2,7 @@
 https://liginc.co.jp/548806
 
 ## 円の書き出し
+```
 class Particle {
   constructor(x, y, radius, directionX, directionY) {
     this.x = x;
@@ -21,7 +22,7 @@ class Particle {
 
 const particle = new Particle(100, 100, 10, 0, 0);
 particle.render();
-
+```
 
 
 ## window.requestAnimationFrame() メソッド
